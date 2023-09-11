@@ -1,3 +1,125 @@
+.viewtrailer{
+  align-items: center;
+  min-height: 700px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  text-shadow: 2px 3px 5px #000000;
+}
+
+.boton{
+margin-right: 250px;
+ padding: 10px 10px;
+  background-color: rgba(0, 0, 0, 0.557);
+color: aliceblue;
+text-shadow: 2px 3px 2px black;
+outline: none;
+border: 1px solid rgb(0, 238, 255);
+cursor: pointer;
+margin-bottom: 10px;
+border-radius: 5px;
+}
+.reproductor{
+  background: none;
+  padding-left: 50px;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  margin-left: 250px;
+}
+.inputsearch{
+  background: none;
+  height: 30px;
+  transition: all .3s;
+    border-radius: 10px;
+    outline: 1px solid #00ffff;
+    border: 0;
+    background-color: #00083d57;
+    outline-offset: 2px;
+    padding: 5px 0.8rem;
+    transition: 0.25s;
+    margin: 14px;
+    backface-visibility: hidden;
+    color: #ffffff;
+    font-size: 20px;
+}
+.inputsearch:focus{
+    background-color: #0e00a75f;
+    backface-visibility: hidden;
+    text-shadow: -0px 4px 3px rgba(0, 0, 0, 0.75);
+}
+
+.inputsearch::placeholder {
+  color: rgba(255, 255, 255, 0.427);
+  font-size: 22px;
+  text-align: center;
+}
+
+.inputsearch:hover {
+  text-shadow: -0px 4px 3px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+  backface-visibility: hidden;
+}
+
+
+.buttonsearch{
+  color: #ffffff;
+  background-color: #0011446f;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 255, 251);
+  cursor: pointer;
+    /* width: 260px;
+    height:60px; */
+    margin: 10px;
+    background: none;
+    transition: all .5s;
+    font-size: 22px;
+    color: #ffffff;
+    text-shadow: -0px 4px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: -0px 4px 3px rgba(0, 0, 0, 0.75);
+    background-color: #04006b53;
+}
+
+.buttonsearch:hover {
+  background-color: #05009a62;
+  cursor: pointer;
+  /* width: 278px;
+  height:60px; */
+  /* margin: 120px; */
+  border: 1px solid rgb(0, 255, 251);
+  border-radius: 15px;
+  transition: all .5s;
+  font-size: 22px;
+  color: #ffffff;
+  text-shadow: -0px 4px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: -0px 4px 3px rgba(0, 0, 0, 0.75);
+}
+
+
+.containerall{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.567), rgba(0, 0, 0, 0.755)),url("./backgrounds/scott-webb-aHhhdKUP77M-unsplash.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-shadow: 2px 3px 4px #000000;
+}
+
+.h2{
+    /* backdrop-filter: blur(50px); */
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;;
+}
+
+.moviet{
+font-size: 45px;
+}
+.text{
+  font-size: 20px;
+}
+
+
 .App {
   text-align: center;
 }
@@ -14,7 +136,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #001642;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
