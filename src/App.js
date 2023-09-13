@@ -66,7 +66,7 @@ fetchMovies(searchKey)
 
 useEffect(()=>{
   fetchMovies();
-}, []);
+}, [fetchMovies]);
 
   return (
     <div className="containerall">
