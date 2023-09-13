@@ -65,7 +65,7 @@ fetchMovies(searchKey)
 }
 
 useEffect(()=>{
-  fetchMovies();
+  
 },[])
 
   return (
