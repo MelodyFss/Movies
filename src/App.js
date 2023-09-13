@@ -27,12 +27,12 @@ const fetchMovies = async(searchKey) =>{
   },
 });
 
-setMovies(results)
-setMovie(results[0])
 
 if(results.length){
   await fetchMovie(results[0].id)
 }
+return(setMovies(results),setMovie(results[0])
+)
 
 }
 //function for the petition of just one object and the video player
