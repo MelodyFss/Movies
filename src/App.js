@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+fimport React, { useEffect, useState } from "react";
 import axios from "axios";
 import Youtube from 'react-youtube';
 import './App.css';
@@ -65,8 +65,8 @@ fetchMovies(searchKey)
 }
 
 useEffect(()=>{
-  
-},[])
+  fetchMovies();
+}, [fetchMovies]);
 
   return (
     <div className="containerall">
