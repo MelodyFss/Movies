@@ -69,7 +69,7 @@ function App() {
 
   return (
     <div className="containerall">
-      <h2 className="h2">TRAILER OF THE MOVIES</h2>
+      <h2 className="h2">TRAILERS</h2>
       {/* search */}
       <form className='container mb-4' onSubmit={searchMovies} >
         <input type="text" placeholder='Search a movie...' className="inputsearch" onChange={(e) => setSearchKey(e.target.value)} />
