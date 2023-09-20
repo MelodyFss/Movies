@@ -1,33 +1,53 @@
 .viewtrailer{
-  align-items: center;
-  min-height: 700px;
+  min-height: 500px; 
   background-size: cover;
   background-position: center;
-  display: flex;
-  align-items: flex-end;
   text-shadow: 2px 3px 5px #000000;
+  justify-content: flex-end;
+  display: flex;
+  position: relative;
+  align-items:flex-end;
+}
+.info{
+  align-items: flex-end;
 }
 
 .boton{
-margin-right: 250px;
- padding: 10px 10px;
-  background-color: rgba(0, 0, 0, 0.557);
+background-color: rgba(0, 0, 0, 0.557);
 color: aliceblue;
 text-shadow: 2px 3px 2px black;
 outline: none;
 border: 1px solid rgb(0, 238, 255);
 cursor: pointer;
-margin-bottom: 10px;
 border-radius: 5px;
+height: 50px;
 }
+.boton:hover{
+    background-color: rgba(49, 49, 49, 0.53);
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 3px 2px black;
+  outline: none;
+  border: 1px solid rgb(0, 238, 255);
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.25s;
+}
+
+@media(max-width:1000px){
+}
+
 .reproductor{
-  background: none;
-  padding-left: 50px;
+  background:none;
+  /* padding-left: 50px; */
   align-items: center;
-  width: 100%;
-  height: 700px;
-  margin-left: 250px;
+  height: 500px;
+   /* width: 100%; */
+  /* margin-left: 250px; */
+  display: flex;
+  position: relative;
 }
+
+
 .inputsearch{
   background: none;
   height: 30px;
@@ -60,6 +80,7 @@ border-radius: 5px;
   text-shadow: -0px 4px 3px rgba(0, 0, 0, 0.75);
   border-radius: 15px;
   backface-visibility: hidden;
+  background-color: #0a0042;
 }
 
 
