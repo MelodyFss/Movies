@@ -57,7 +57,7 @@ height: 50px;
     border: 0;
     background-color: #00083d57;
     outline-offset: 2px;
-    padding: 5px 0.8rem;
+    padding: 2px 0.8rem;
     transition: 0.25s;
     margin: 14px;
     backface-visibility: hidden;
@@ -93,7 +93,7 @@ height: 50px;
   cursor: pointer;
     /* width: 260px;
     height:60px; */
-    margin: 5px;
+    
     background: none;
     transition: all .5s;
     font-size: 20px;
