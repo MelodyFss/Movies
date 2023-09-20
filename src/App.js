@@ -65,7 +65,7 @@ function App() {
 
   useEffect(() => {
     fetchMovies();
-  }, []);
+  }, [fetchMovies]);
 
   return (
     <div className="containerall">
@@ -106,7 +106,7 @@ function App() {
                 </>
               ) : (
                 <div className="container">
-                  <div className="info">
+                  <div className="">
                     {trailer ? (
                       <button className="boton" onClick={() => setPlaying(true)} type="button">
                         Play Trailer
