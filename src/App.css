@@ -85,6 +85,8 @@ height: 50px;
 
 
 .buttonsearch{
+  position: relative;
+  display: flex;
   color: #ffffff;
   background-color: #0011446f;
   border-radius: 10px;
