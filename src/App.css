@@ -132,22 +132,22 @@ height: 50px;
   color: #ffffff;
   text-shadow: 2px 3px 4px #000000;
 }
-@keyframes anim{
-  0% {color: rgb(0, 4, 255);} /*Amarillo*/
- 25% {color: rgb(27, 0, 201);} /*Naranja*/
- 50% {color: #0066ff;} /*Negro*/
- 75% {color: rgb(27, 0, 201);}/*Otra vez naranja*/
-100% {color: rgb(0, 4, 255);} /*Otra vez amarillo*/
-}
+/*@keyframes anim{
+  0% {color: rgb(0, 4, 255);} 
+ 25% {color: rgb(27, 0, 201);} 
+ 50% {color: #0066ff;} 
+ 75% {color: rgb(27, 0, 201);}
+100% {color: rgb(0, 4, 255);} 
+}*/
 
 .h2{
     /* backdrop-filter: blur(50px); */
   font-size: 60px;
   text-align: center;
   color: #ffffff;;
-  animation-name: anim;
+/*   animation-name: anim;
 animation-duration: 5s;
-animation-iteration-count: infinite;
+animation-iteration-count: infinite; */
 }
 
 .moviet{
